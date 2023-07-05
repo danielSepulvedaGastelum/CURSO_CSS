@@ -1,0 +1,45 @@
+Instalación SASS en Windows 7 x86
+
+01. Isntalar Nodejs desde : https://nodejs.org/download/release/v14.17.6/
+02. Descomprimir archivos
+03. Renombrar carpeta nodejs86
+04. depositar carpeta en C:/
+
+...
+20. Es necesario agregar variables del sistema en Windows para que funcione node
+
+=====================================================================================
+=================================     S A S S   =====================================
+=====================================================================================
+...
+50. Intalar SASS desde consola
+51. ingresar a consola
+52. introducir "node -v" para verificar que se encuntre instalado node
+53. Intoriducir "npm -v" para verificar que se encuntre instalador de node
+54. introducir "npm config set strict-ssl false" para que no mande error la instalación
+55. Introducir "npm install -g sass" para instalar sass
+56. Verificar la instalación: sass -v
+
+
+...
+70. para iniciar la compilación de SASS es neceario introducir en consola:
+	sass --watch <nombre_archivo_sass.scss> <nombre_archivo_estilos.css>
+
+
+
+=====================================================================================
+=================================     L E S S   =====================================
+=====================================================================================
+50. Intalar LESS desde consola
+51. ingresar a consola
+52. introducir "node -v" para verificar que se encuntre instalado node
+53. Intoriducir "npm -v" para verificar que se encuntre instalador de node
+54. introducir "npm config set strict-ssl false" para que no mande error la instalación
+55. Introducir "npm install -g less" para instalar sass
+56. Verificar la instalación: lessc -v
+
+
+...
+70. para iniciar la compilación de SASS es neceario introducir en consola:
+	lessc <nombre_archivo_sass.scss> <nombre_archivo_estilos.css>
+

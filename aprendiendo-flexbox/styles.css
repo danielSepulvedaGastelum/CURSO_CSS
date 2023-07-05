@@ -1,0 +1,100 @@
+body {
+    --rojo: lightcoral;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#layout {
+    display: flex;
+    /*
+    flex-direction: row;
+    flex-wrap: wrap;
+    */
+
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.caja {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background-color: gray;
+}
+
+#layout .red {
+    
+    background-color: var(--rojo);
+}
+
+#layout .green {
+    background-color: lightgreen;
+}
+
+#layout .blue {
+    background-color: lightblue;
+}
+
+#layout .orange {
+    background-color: lightsalmon;
+}
+
+
+
+#layout_vertical {
+    display: flex;
+    /*
+    flex-direction: row;
+    flex-wrap: wrap;
+    */
+
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    height: 300px;
+    align-items:flex-start;
+
+    margin-top: 20px;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.caja_vertical {
+    flex-grow: 1;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background-color: gray;
+}
+
+#layout_vertical .red {
+    align-self: flex-start;
+    background-color: var(--rojo);
+}
+
+#layout_vertical .green {
+    align-self: center;
+    background-color: lightgreen;
+}
+
+#layout_vertical .blue {
+    align-self: center;
+    background-color: lightblue;
+}
+
+#layout_vertical .orange {
+    align-self: flex-end;
+    background-color: lightsalmon;
+}

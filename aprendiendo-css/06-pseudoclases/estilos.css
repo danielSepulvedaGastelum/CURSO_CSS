@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color: purple;
+    font-weight: bold;
+}
+
+ul li:nth-child(2){
+    color:orange;
+    font-weight: bold;
+}
+
+ul li:last-child{
+    color: gray;
+    font-weight: bold;
+}
+
+
+#mi_enlace{
+    font-size: 30px;
+    color: black;
+}
+/* Cuando no se ha visitado el enlace*/
+#mi_enlace:link{
+    color: gray;
+}
+/* Cuando ya se visitó el enlace*/
+#mi_enlace:visited{
+    color: chartreuse;
+}
+
+#mi-enlace:hover{
+    color: blue;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    border: 4px dashed red;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <title>Maester en CSS Grid</title> 
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+
+    <!-- 
+        Cabecera    (Arriba del todo y ocupe el 100%)
+            TITULO
+        MENU        (Debajo de la Canecera y ocupa el 100%)
+        CONTENIDO   (Debajo del Menú a y al lado de Lateral)
+        LATERAL     (Debajo del Menú y a la derecha de el contenido)
+        FOOTER      (Abajo del todo y que ocupe el 100%)
+    -->
+
+    <div id="website-areas">
+        <header id="cabecera">
+            <h1>Titulo de mi WEB - Grid ÁREAS</h1>
+        </header>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Página 1</a></li>
+                <li><a href="#">Página 2</a></li>
+                <li><a href="#">Página 3</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <section id="contenido">
+            <article>
+                Articulo 1
+            </article>
+            <article>
+                Articulo 2
+            </article>
+            <article>
+                Articulo 3
+            </article>
+            <article>
+                Articulo 4
+            </article>
+            <article>
+                Articulo 5
+            </article>
+        </section>
+
+        <aside id="lateral">
+            <h2>Barra Lateral</h2>
+        </aside>
+
+        <footer id="pie-pagina">
+            Master en CSS con Daniel Sepulveda &copy;
+        </footer>
+    </div>
+
+    <br/><br/><br/>
+    <hr/>
+    <br/><br/><br/>
+
+    <div id="website">
+        <header id="cabecera">
+            <h1>Titulo de mi WEB - Grid Clásico</h1>
+        </header>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Página 1</a></li>
+                <li><a href="#">Página 2</a></li>
+                <li><a href="#">Página 3</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <section id="contenido">
+            <article>
+                Articulo 1
+            </article>
+            <article>
+                Articulo 2
+            </article>
+            <article>
+                Articulo 3
+            </article>
+            <article>
+                Articulo 4
+            </article>
+            <article>
+                Articulo 5
+            </article>
+        </section>
+
+        <aside id="lateral">
+            <h2>Barra Lateral</h2>
+        </aside>
+
+        <footer id="pie-pagina">
+            Master en CSS con Daniel Sepulveda &copy;
+        </footer>
+    </div>
+
+
+    <br/><br/><br/>
+    <hr/>
+    <br/><br/><br/>
+
+
+    <h1>Master en CSS Grid</h1>
+    <h2> hoy aprendenmos CSS Grid una forma de maquetar WEBs</h2>
+
+    <div class="layout">
+        <div class="caja red">
+            Primera Caja
+        </div>
+        <div class="caja green">
+            Segunda Caja
+        </div>
+        <div class="caja lightblue">
+            Tercera Caja
+        </div>
+        <div class="caja pink">
+            Cuarta Caja
+        </div>
+        <div class="caja orange">
+            Quinta Caja
+        </div>
+        <div class="caja blue">
+            Sexta Caja
+        </div>
+    </div>
+
+    <p>Este parrofo no se mueve</p>
+
+</body>
+</html>

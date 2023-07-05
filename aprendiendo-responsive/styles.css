@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#container{
+    width: 70%;
+    background-color: red;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: lightblue;
+    color: #333333;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
+
+aside{
+    width: 25%;
+    background-color: #cccccc;
+    float: left;
+    min-height: 700px;
+    text-align: center;
+    line-height: 700px;
+}
+
+#articles{
+    width: 75%;
+    min-height: 700px;
+    float: left;
+    background-color: lemonchiffon;
+}
+
+#articles article{
+    width: 25%;
+    height: 150px;
+    background-color: green;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+    border: 2px solid white;
+    float: left;
+    margin: 15px;
+}
+
+
+/*RESPONSIVE*/
+
+/*Desde la anchura 0px a la anchura 888px de pantalla*/
+@media (max-width: 888px){
+    /*Se ejecutarán estos estilos*/
+    #articles article{
+        width: 40%;
+        background-color: red;
+    }
+}
+
+@media (max-width: 632px){
+    /*Se ejecutarán estos estilos*/
+
+    #articles{
+        width: 100%;
+    }
+
+    aside{
+        float: none;
+        min-height: auto;
+        line-height: 20px;
+        width: 100%;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+
+    #articles article{
+        width: 90%;
+        background-color: blue;
+    }
+}
+
+@media (max-width: 554px){
+    /*Se ejecutarán estos estilos*/
+    body{
+        background-color: lightsalmon;
+    }
+}

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Maester en CSS Grid</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+
+    <div id="contenedor_general_tarjeton">
+        <div id="contenedor_tarjeton">
+            <div id="tarjeton">
+                <div id="t01" class="titulo_tarjeton">INFORMACIÓN DEL TRABAJADOR</div>
+                <div class="etiqueta_tarjeton" id="e01">Matrícula:</div>
+                <div class="dato_tarjeton" id="d01">10969306</div>
+                <div class="etiqueta_tarjeton" id="e02">Nombre:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d02">JOSE MARIA ZAZUETA COTA</div>
+                <div class="etiqueta_tarjeton" id="e03">RFC:</div>
+                <div class="dato_tarjeton" id="d03">ZACM750329JH1</div>
+                <div class="etiqueta_tarjeton" id="e04">CURP</div>
+                <div class="dato_tarjeton dato_resaltado" id="d04">ZACM750329HSRZTR02</div>
+                <div class="etiqueta_tarjeton" id="e05">No. Seguridad Social:</div>
+                <div class="dato_tarjeton" id="d05">24917557191</div>
+                <div class="etiqueta_tarjeton" id="e06">Tipo de Contratación:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d06">Base</div>
+                <div class="etiqueta_tarjeton" id="e07">Clave de Adscripción:</div>
+                <div class="dato_tarjeton" id="d07">270109252110282</div>
+                <div class="etiqueta_tarjeton" id="e08">Nombre de Adscripción:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d08">UNIDAD MEDICINA FAM 02 HERMOSILLO</div>
+                <div class="etiqueta_tarjeton" id="e09">Ubicación:</div>
+                <div class="dato_tarjeton" id="d09">HERMOSILLO</div>
+                <div class="etiqueta_tarjeton" id="e10">Clave Est. Org.:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d10">27UA020000</div>
+                <div class="etiqueta_tarjeton" id="e11">Clave Categoría/Puesto:</div>
+                <div class="dato_tarjeton" id="d11">21760065</div>
+                <div class="etiqueta_tarjeton" id="e12">Nombre Categoría/Puesto:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d12">AUX UNIV DE OFICINAS 65</div>
+                <div class="etiqueta_tarjeton" id="e13">Antigüedad efectiva:</div>
+                <div class="dato_tarjeton" id="d13">16 años 22 qnas 11 dias</div>
+                <div class="etiqueta_tarjeton" id="e14">Plaza:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d14">9109</div>
+                <div class="etiqueta_tarjeton" id="e15">Marca de ocupación plaza:</div>
+                <div class="dato_tarjeton" id="d15">99</div>
+                <div class="etiqueta_tarjeton" id="e16">Matrícula titular:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d16">0</div>
+                <div class="etiqueta_tarjeton" id="e17">Fecha término</div>
+                <div class="dato_tarjeton" id="d17"></div>
+                <div class="etiqueta_tarjeton" id="e18">Banco:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d18">BANORTE</div>
+                <div class="etiqueta_tarjeton" id="e19">No. Cuenta Bancaria</div>
+                <div class="dato_tarjeton" id="d19">0000001219332465</div>
+
+                <div class="informacion_blanco" id="b01"></div>
+
+                <div class="etiqueta_tarjeton" id="e20">Retardos:</div>
+                <div class="dato_tarjeton" id="d20">1</div>
+                <div class="etiqueta_tarjeton" id="e21">Pases de salida:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d21">17</div>
+                <div class="etiqueta_tarjeton" id="e22">Faltas:</div>
+                <div class="dato_tarjeton" id="d22">2</div>
+                <div class="etiqueta_tarjeton" id="e23">Sin retardo:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d23">8</div>
+                <div class="etiqueta_tarjeton" id="e24">Asiduidad:</div>
+                <div class="dato_tarjeton" id="d24">1 1</div>
+                <div class="etiqueta_tarjeton" id="e25">Incapacidad Enf. Gral.:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d25">2</div>
+                <div class="etiqueta_tarjeton" id="e26">Incapacidad Riesgo de Trab.:</div>
+                <div class="dato_tarjeton" id="d26">0</div>
+                <div class="etiqueta_tarjeton" id="e27">Incapacidad Maternidad:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d27">0</div>
+                <div class="etiqueta_tarjeton" id="e28">Notas de mérito(casos):</div>
+                <div class="dato_tarjeton" id="d28">0</div>
+                <div class="etiqueta_tarjeton" id="e29">Notas de demérito(casos):</div>
+                <div class="dato_tarjeton dato_resaltado" id="d29">0</div>
+                <div class="etiqueta_tarjeton" id="e30">Vale a cuenta de aguinaldo:</div>
+                <div class="dato_tarjeton" id="d30">NO</div>
+                <div class="etiqueta_tarjeton" id="e31">Comisiones:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d31">6</div>
+                <div class="etiqueta_tarjeton" id="e32">Comisiones p/capacitación:</div>
+                <div class="dato_tarjeton" id="d32">0</div>
+                <div class="etiqueta_tarjeton" id="e33">Licencias con sueldo:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d33">0</div>
+                <div class="etiqueta_tarjeton" id="e34">Licencias sin sueldo:</div>
+                <div class="dato_tarjeton" id="d34">0</div>
+                <div class="etiqueta_tarjeton" id="e35">Licencias vigencia contrato:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d35">0</div>
+                <div class="etiqueta_tarjeton" id="e36">Becas sin sueldo:</div>
+                <div class="dato_tarjeton" id="d36">0</div>
+                <div class="etiqueta_tarjeton" id="e37">Becas con sueldo</div>
+                <div class="dato_tarjeton dato_resaltado" id="d37">0</div>
+                <div class="etiqueta_tarjeton" id="e38">Días concepto 033:</div>
+                <div class="dato_tarjeton" id="d38">0</div>
+
+                <div class="informacion_blanco" id="b02"></div>
+
+                <div class="etiqueta_tarjeton" id="e39">Periodo de pago:</div>
+                <div class="dato_tarjeton" id="d39">2A-MAY-2023</div>
+                <div class="etiqueta_tarjeton" id="e40">Método de pago:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d40">Acreditamiento en cuenta</div>
+                <div class="etiqueta_tarjeton" id="e41">Capacidad de crédito:</div>
+                <div class="dato_tarjeton" id="d41">-1,184.28</div>
+                <div class="etiqueta_tarjeton" id="e42">Días Labs. en el año:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d42">166</div>
+                <div class="etiqueta_tarjeton" id="e43">Días pagados en la qna.:</div>
+                <div class="dato_tarjeton" id="d43">15</div>
+                <div class="etiqueta_tarjeton" id="e44">Vacaciones disfrutadas:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d44">33</div>
+                <div class="etiqueta_tarjeton" id="e45">Vacs. de 20 años o mas:</div>
+                <div class="dato_tarjeton" id="d45">0</div>
+                <div class="etiqueta_tarjeton" id="e46">No. de periodo vac. vencidos:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d46">0</div>
+                <div class="etiqueta_tarjeton" id="e47">Vacaciones en el año:</div>
+                <div class="dato_tarjeton" id="d47">0</div>
+                <div class="etiqueta_tarjeton" id="e48">Marca de continuidad:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d48">1</div>
+                <div class="etiqueta_tarjeton" id="e49">No. de periodo por disfrutar:</div>
+                <div class="dato_tarjeton" id="d49">34</div>
+                <div class="etiqueta_tarjeton" id="e50">Días de Sust. y Temp. Vacs.:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d50"></div>
+                <div class="etiqueta_tarjeton" id="e51">Días de vacs. Acum p/jubilación:</div>
+                <div class="dato_tarjeton" id="d51">0</div>
+                <div class="etiqueta_tarjeton" id="e52">Inicio (1er periodo vac.):</div>
+                <div class="dato_tarjeton dato_resaltado" id="d52">11 SEP</div>
+                <div class="etiqueta_tarjeton" id="e53">Inicio (2er periodo vac.):</div>
+                <div class="dato_tarjeton" id="d53"></div>
+                <div class="etiqueta_tarjeton" id="e54">Crédito INFONAVIT:</div>
+                <div class="dato_tarjeton dato_resaltado" id="d54">0000000000</div>
+                <div class="etiqueta_tarjeton" id="e55">Sueldo Mensual Integrado:</div>
+                <div class="dato_tarjeton" id="d55">10,425.82</div>
+                <div class="etiqueta_tarjeton" id="e56">Fecha de Ingreso</div>
+                <div class="dato_tarjeton dato_resaltado" id="d56">24/07/1996</div>
+                <div class="etiqueta_tarjeton" id="e57">Marca de crédito:</div>
+                <div class="dato_tarjeton" id="d57">Recuperacion Financiamiento Automovil</div>
+
+                <div class="informacion_blanco" id="b03"></div>
+
+                <div id="t02" class="titulo_tarjeton">PERCEPCIONES</div>
+                <div id="s01" class="subtitulo_tarjeton">Cpto.</div>
+                <div id="s02" class="subtitulo_tarjeton">Descripción</div>
+                <div id="s03" class="subtitulo_tarjeton">Importe</div>
+                <div id="per" class="conceptos_tarjeton">
+                    <div class="per_row">
+                        <div class="per_cpto">002</div>
+                        <div class="per_descripcion">Sueldo Base Fijo</div>
+                        <div class="per_importe">32,148.74</div>
+                    </div>
+
+                    <div class="per_row row_resaltado">
+                        <div class="per_cpto">011</div>
+                        <div class="per_descripcion">Ayuda Renta Cláusula 63 Bis Inc b</div>
+                        <div class="per_importe">1,468.66</div>
+                    </div>
+
+                    <div class="per_row">
+                        <div class="per_cpto">020</div>
+                        <div class="per_descripcion">Ayuda Renta Cláusula 63 Bis Inc a</div>
+                        <div class="per_importe">250.00</div>
+                    </div>
+
+                    <div class="per_row row_resaltado">
+                        <div class="per_cpto">022</div>
+                        <div class="per_descripcion">Ayuda Renta Cláusula 63 Bis Inc c</div>
+                        <div class="per_importe">1,145.51</div>
+                    </div>
+
+                    <div class="per_row">
+                        <div class="per_cpto">029</div>
+                        <div class="per_descripcion">Prima Vacacional</div>
+                        <div class="per_importe">868.82</div>
+                    </div>
+
+                    <div class="per_row row_resaltado">
+                        <div class="per_cpto">032</div>
+                        <div class="per_descripcion">Estímulo por Asistencia</div>
+                        <div class="per_importe">723.48</div>
+                    </div>
+
+                    <div class="per_row">
+                        <div class="per_cpto">048</div>
+                        <div class="per_descripcion">Ayuda Actividades Culturales y Recreativas</div>
+                        <div class="per_importe">5,386.67</div>
+                    </div>
+
+                    <div class="per_row row_resaltado">
+                        <div class="per_cpto">050</div>
+                        <div class="per_descripcion">Ayuda para Despensa</div>
+                        <div class="per_importe">200.00</div>
+                    </div>
+
+                    <div class="per_row">
+                        <div class="per_cpto">084</div>
+                        <div class="per_descripcion">Estímulo a la Calidad y Eficiencia</div>
+                        <div class="per_importe">3,008.24</div>
+                    </div>
+                </div>
+                <div id="tt1" class="totales_tarjeton">TOTAL PERCEPCIONES:</div>
+                <div id="td1" class="totales_dato_tarjeton">23,612.80</div>
+
+                <div id="t03" class="titulo_tarjeton">DEDUCIONES</div>
+                <div id="s04" class="subtitulo_tarjeton">Cpto.</div>
+                <div id="s05" class="subtitulo_tarjeton">Descripción</div>
+                <div id="s06" class="subtitulo_tarjeton">Importe</div>
+                <div id="ded" class="conceptos_tarjeton">
+                    <div class="ded_row">
+                        <div class="ded_cpto">107</div>
+                        <div class="ded_descripcion">Fondo de Jubilación </div>
+                        <div class="ded_importe">428.21</div>
+                    </div>
+
+                    <div class="ded_row row_resaltado">
+                        <div class="ded_cpto">112</div>
+                        <div class="ded_descripcion">Fondo Ayuda Sindical por Defunción</div>
+                        <div class="ded_importe">50.09</div>
+                    </div>
+
+                    <div class="ded_row">
+                        <div class="ded_cpto">119</div>
+                        <div class="ded_descripcion">Prima Seguro de Auto</div>
+                        <div class="ded_importe">277.63</div>
+                    </div>
+
+                    <div class="ded_row row_resaltado">
+                        <div class="ded_cpto">134</div>
+                        <div class="ded_descripcion">Financiamiento Automóvil ESMI</div>
+                        <div class="ded_importe">1,736.35</div>
+                    </div>
+                    <div class="ded_row">
+                        <div class="ded_cpto">151</div>
+                        <div class="ded_descripcion">ISR</div>
+                        <div class="ded_importe">423.41</div>
+                    </div>
+
+                    <div class="ded_row row_resaltado">
+                        <div class="ded_cpto">152</div>
+                        <div class="ded_descripcion">Fondo de Jubilación</div>
+                        <div class="ded_importe">183.52</div>
+                    </div>
+
+                    <div class="ded_row">
+                        <div class="ded_cpto">173</div>
+                        <div class="ded_descripcion">Pases de Salida</div>
+                        <div class="ded_importe">16.70</div>
+                    </div>
+
+                    <div class="ded_row row_resaltado">
+                        <div class="ded_cpto">174</div>
+                        <div class="ded_descripcion">Retardos</div>
+                        <div class="ded_importe">38.86</div>
+                    </div>
+
+                    <div class="ded_row">
+                        <div class="ded_cpto">180</div>
+                        <div class="ded_descripcion">Cuota Sindical </div>
+                        <div class="ded_importe">72.35</div>
+                    </div>
+
+                    <div class="ded_row row_resaltado">
+                        <div class="ded_cpto">192</div>
+                        <div class="ded_descripcion">Caja de Ahorro Ahorro </div>
+                        <div class="ded_importe">1,500.00</div>
+                    </div>
+                </div>
+                <div id="tt2" class="totales_tarjeton">TOTAL DEDUCIONES:</div>
+                <div id="td2" class="totales_dato_tarjeton">12,591.30</div>
+                <div id="tt3" class="totales_tarjeton">LÍQUIDO:</div>
+                <div id="td3" class="totales_dato_tarjeton">11,021.00</div>
+
+                <div id="t04" class="titulo_tarjeton">MENSAJES</div>
+                <div id="men" class="mensajes_tarjeton">
+                    <div class="mensaje_nomina_row">
+                        Conoce y suscribe la Carta Compromiso de Adhesión al Código de Ética de la Administración
+                        Pública Federal y Código de Conducta y de Prevención de Conflictos de Interés de las personas
+                    </div>
+                    <div class="mensaje_nomina_row">
+                        Visita los Centros Vacacionales IMSS Oaxtepec, Atlixco-Metepec, La Trinidad y Malintzi, y
+                        disfruta tus vacaciones en familia; aprovecha nuestros descuentos. Aplicamos todos los
+                        protocolos de
+                    </div>
+                    <div class="mensaje_nomina_row">
+                        18 de mayo, Día Internacional de Acción por la Salud de las mujeres. Si eres mujer acude al
+                        IMSS, donde te proporcionarán acciones médicas y preventivas para conservar tu salud.
+                    </div>
+                    <div class="mensaje_nomina_row">
+                        Servidor público si la imparcialidad con que desempeñas tu empleo pudiera verse afectada por la
+                        relación que tienes con una persona o empresa que participa en tu procedimiento, podrías
+                        encontrarte
+                    </div>
+                    <div class="mensaje_nomina_row">
+                        Es delito electoral realizar actos de proselitismo durante tu horario laboral. No lo hagas. Si
+                        necesitas información de donde y como presentar una denuncia por delitos electorales federales
+                        llama al 800-833-7233
+                    </div>
+                </div>
+
+                <div id="t05" class="titulo_tarjeton">OBSERVACIONES</div>
+                <div id="s07" class="subtitulo_tarjeton">Cpto.</div>
+                <div id="s08" class="subtitulo_tarjeton">Importe</div>
+                <div id="s09" class="subtitulo_tarjeton">Venc.</div>
+                <div id="s10" class="subtitulo_tarjeton">Unid.</div>
+                <div id="s11" class="subtitulo_tarjeton">Num. Control</div>
+                <div id="s12" class="subtitulo_tarjeton">Cargo Inicial</div>
+                <div id="s13" class="subtitulo_tarjeton">Observaciones</div>
+                <div id="s14" class="subtitulo_tarjeton"></div>
+                <div id="obs" class="observaciones_tarjeton">
+                    <div class="obser_row">
+                        <div class="obser_cpto">119</div>
+                        <div class="obser_importe">277.63</div>
+                        <div class="obser_vencimiento">2016024</div>
+                        <div class="obser_unidades"></div>
+                        <div class="obser_num_control">270115</div>
+                        <div class="obser_cargo_inicial">13,326.22</div>
+                        <div class="obser_observaciones"> 5,274.97   8,051.25</div>
+                        <div class="obser_mas">+</div>
+                    </div>
+
+                    <div class="obser_row row_resaltado">
+                        <div class="obser_cpto">134</div>
+                        <div class="obser_importe">1,736.35</div>
+                        <div class="obser_vencimiento">2027005</div>
+                        <div class="obser_unidades"></div>
+                        <div class="obser_num_control">127529</div>
+                        <div class="obser_cargo_inicial">36.34</div>
+                        <div class="obser_observaciones">2.3999997 .3999995</div>
+                        <div class="obser_mas">+</div>
+                    </div>
+
+                    <div class="obser_row">
+                        <div class="obser_cpto">173</div>
+                        <div class="obser_importe">16.70</div>
+                        <div class="obser_vencimiento">2023010</div>
+                        <div class="obser_unidades">0</div>
+                        <div class="obser_num_control"></div>
+                        <div class="obser_cargo_inicial"></div>
+                        <div class="obser_observaciones">18042023-18042023</div>
+                        <div class="obser_mas">+</div>
+                    </div>
+
+                    <div class="obser_row row_resaltado">
+                        <div class="obser_cpto">174</div>
+                        <div class="obser_importe">35.86</div>
+                        <div class="obser_vencimiento">2023010</div>
+                        <div class="obser_unidades">58</div>
+                        <div class="obser_num_control"></div>
+                        <div class="obser_cargo_inicial"></div>
+                        <div class="obser_observaciones">17042023-17042023</div>
+                        <div class="obser_mas">+</div>
+                    </div>
+
+                    <div class="obser_row">
+                        <div class="obser_cpto">192</div>
+                        <div class="obser_importe">1,500.00</div>
+                        <div class="obser_vencimiento">2027007</div>
+                        <div class="obser_unidades">98</div>
+                        <div class="obser_num_control">54</div>
+                        <div class="obser_cargo_inicial"></div>
+                        <div class="obser_observaciones"></div>
+                        <div class="obser_mas">+</div>
+                    </div>
+
+                    <div class="obser_row row_resaltado">
+                        <div class="obser_cpto">029</div>
+                        <div class="obser_importe">868.82</div>
+                        <div class="obser_vencimiento">2023010</div>
+                        <div class="obser_unidades">10</div>
+                        <div class="obser_num_control">330101</div>
+                        <div class="obser_cargo_inicial"></div>
+                        <div class="obser_observaciones">05062023-16062023</div>
+                        <div class="obser_mas">+</div>
+                    </div>
+
+                    <div class="obser_row">
+                        <div class="obser_cpto">048</div>
+                        <div class="obser_importe">5,386.67</div>
+                        <div class="obser_vencimiento">2023010</div>
+                        <div class="obser_unidades">15.5</div>
+                        <div class="obser_num_control">330101</div>
+                        <div class="obser_cargo_inicial"></div>
+                        <div class="obser_observaciones">ACT. CULTURALES</div>
+                        <div class="obser_mas">+</div>
+                    </div>
+
+                    <div class="obser_row row_resaltado">
+                        <div class="obser_cpto">032</div>
+                        <div class="obser_importe">723.48</div>
+                        <div class="obser_vencimiento">2023010</div>
+                        <div class="obser_unidades">3</div>
+                        <div class="obser_num_control"></div>
+                        <div class="obser_cargo_inicial"></div>
+                        <div class="obser_observaciones">QI 8</div>
+                        <div class="obser_mas">+</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <br /><br /><br />
+
+</body>
+
+</html>
